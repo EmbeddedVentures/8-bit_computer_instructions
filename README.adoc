@@ -106,6 +106,14 @@ The eigth LED needs to go from **ground (-)** to **pin 6 (Q4)** of the second **
 * Connect **pin 8 (GND)** to **ground (-)** --> `- to A`
 * Connect **pin 16 (+5v)** to **power (+)** --> `+ to J`
 
+==== Connect CLR for the two 74LS173 4-bit D registers
+
+Connect **pin 15 (CLR)** of the first **74LS173 4-bit D register** to **pin 15 (CLR)** of the second **74LS173 4-bit D register** --> `J to J`
+
+==== Connect CLK for the two 74LS173 4-bit D registers
+
+Connect **pin 7 (CLK)** of the first **74LS173 4-bit D register** to **pin 7 (CLK)** of the second **74LS173 4-bit D register** --> `B to B`
+
 === B Register
 
 [#img-b-register] 
