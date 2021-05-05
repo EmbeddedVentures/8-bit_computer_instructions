@@ -38,13 +38,19 @@ At the far right side of the breadboard (numbers like 60) connect the two sides 
 
 ===== 74LS245 8-bit bus transceiver
 
+NOTE: The 8-bit bus transceiver allows 8-bit data from **A (pins 2-9)** to **B (pins 11-18)** or B to A depending on the input to **pin 1 (DIR)**. The input for **pin 19 (EN)** disables the device so A and B are isolated.
+
 Place the **74LS245 8-bit bus transceiver** on the far left side of the board (number like **3**) in the middle of the board such that the two sides are in **E** and **F** slots.
 
 ===== 74LS173 4-bit D register (1)
 
+NOTE: The 4-bit D register stores 4 bits. You write data to it by holding G~1~ and G~2~ low and pulsating the clock.
+
 Place the first  **74LS173 4-bit D register** on the left side of our first chip (number like **15**) in the middle of the board such that the two sides are in **E** and **F** slots.
 
 ===== 74LS173 4-bit D register (2)
+
+NOTE: The 4-bit D register stores 4 bits. You write data to it by holding G~1~ and G~2~ low and pulsating the clock.
 
 Place the second **74LS173 4-bit D register** on the left side of the first D register chip (number like **25**) in the middle of the board such that the two sides are in **E** and **F** slots.
 
@@ -54,35 +60,35 @@ Select 8 red LEDs.
 
 ===== LED (1)
 
-The first LED needs to go from **ground (-)** to **pin 3 (Q~1)** of the first **74LS173 4-bit D register**
+The first LED needs to go from **ground (-)** to **pin 3 (Q~1~)** of the first **74LS173 4-bit D register**
 
 ===== LED (2)
 
-The second LED needs to go from **ground (-)** to **pin 4 (Q~2)** of the first **74LS173 4-bit D register**
+The second LED needs to go from **ground (-)** to **pin 4 (Q~2~)** of the first **74LS173 4-bit D register**
 
 ===== LED (3)
 
-The third LED needs to go from **ground (-)** to **pin 5 (Q~3)** of the first **74LS173 4-bit D register**
+The third LED needs to go from **ground (-)** to **pin 5 (Q~3~)** of the first **74LS173 4-bit D register**
 
 ===== LED (4)
 
-The fourth LED needs to go from **ground (-)** to **pin 6 (Q~4)** of the first **74LS173 4-bit D register**
+The fourth LED needs to go from **ground (-)** to **pin 6 (Q~4~)** of the first **74LS173 4-bit D register**
 
 ===== LED (5)
 
-The fifth LED needs to go from **ground (-)** to **pin 3 (Q~1)** of the second **74LS173 4-bit D register**
+The fifth LED needs to go from **ground (-)** to **pin 3 (Q~1~)** of the second **74LS173 4-bit D register**
 
 ===== LED (6)
 
-The sixth LED needs to go from **ground (-)** to **pin 4 (Q~2)** of the second **74LS173 4-bit D register**
+The sixth LED needs to go from **ground (-)** to **pin 4 (Q~2~)** of the second **74LS173 4-bit D register**
 
 ===== LED (7)
 
-The seventh LED needs to go from **ground (-)** to **pin 5 (Q~3)** of the second **74LS173 4-bit D register**
+The seventh LED needs to go from **ground (-)** to **pin 5 (Q~3~)** of the second **74LS173 4-bit D register**
 
 ===== LED (8)
 
-The eigth LED needs to go from **ground (-)** to **pin 6 (Q~4)** of the second **74LS173 4-bit D register**
+The eigth LED needs to go from **ground (-)** to **pin 6 (Q~4~)** of the second **74LS173 4-bit D register**
 
 ==== Connect power and ground for the chips
 
@@ -116,33 +122,31 @@ Connect **pin 7 (CLK)** of the first **74LS173 4-bit D register** to **pin 7 (CL
 
 ==== Connect G1 and G2 for the two 74LS173 4-bit D registers
 
-NOTE: The 4-bit D register stores 4 bits. You write data to it by holding G1 and G2 low and pulsating the clock.
-
-* Connect **pin 10 (G~1)** of the first **74LS173 4-bit D register** to **pin 10 (G~1)** of the second **74LS173 4-bit D register** --> `G to G`
+* Connect **pin 10 (G~1~)** of the first **74LS173 4-bit D register** to **pin 10 (G~1~)** of the second **74LS173 4-bit D register** --> `G to G`
 
 ===== 74LS173 4-bit D register (1)
 
-* Connect **pin 10 (G~1)** of the first **74LS173 4-bit D register** to **pin 9 (G~2)** of the first **74LS173 4-bit D register** --> `H to H`
+* Connect **pin 10 (G~1~)** of the first **74LS173 4-bit D register** to **pin 9 (G~2~)** of the first **74LS173 4-bit D register** --> `H to H`
 
 ===== 74LS173 4-bit D register (2)
 
-* Connect **pin 10 (G~1)** of the second **74LS173 4-bit D register** to **pin 9 (G~2)** of the second **74LS173 4-bit D register** --> `H to H`
+* Connect **pin 10 (G~1~)** of the second **74LS173 4-bit D register** to **pin 9 (G~2~)** of the second **74LS173 4-bit D register** --> `H to H`
 
 ==== Connect the two 74LS173 4-bit D registers to the 74LS245 8-bit bus transceiver
 
 ===== 74LS173 4-bit D register (2)
 
-* Connect **pin 6 (Q~4)** of the second **74LS173 4-bit D register** to **pin 9 (A~8)** of the **74LS245 8-bit bus transceiver**
-* Connect **pin 5 (Q~3)** of the second **74LS173 4-bit D register** to **pin 8 (A~7)** of the **74LS245 8-bit bus transceiver**
-* Connect **pin 4 (Q~2)** of the second **74LS173 4-bit D register** to **pin 7 (A~6)** of the **74LS245 8-bit bus transceiver**
-* Connect **pin 3 (Q~1)** of the second **74LS173 4-bit D register** to **pin 6 (A~5)** of the **74LS245 8-bit bus transceiver**
+* Connect **pin 6 (Q~4~)** of the second **74LS173 4-bit D register** to **pin 9 (A~8~)** of the **74LS245 8-bit bus transceiver**
+* Connect **pin 5 (Q~3~)** of the second **74LS173 4-bit D register** to **pin 8 (A~7~)** of the **74LS245 8-bit bus transceiver**
+* Connect **pin 4 (Q~2~)** of the second **74LS173 4-bit D register** to **pin 7 (A~6~)** of the **74LS245 8-bit bus transceiver**
+* Connect **pin 3 (Q~1~)** of the second **74LS173 4-bit D register** to **pin 6 (A~5~)** of the **74LS245 8-bit bus transceiver**
 
 ===== 74LS173 4-bit D register (1)
 
-* Connect **pin 6 (Q~4)** of the first **74LS173 4-bit D register** to **pin 5 (A~4)** of the **74LS245 8-bit bus transceiver**
-* Connect **pin 5 (Q~3)** of the first **74LS173 4-bit D register** to **pin 4 (A~3)** of the **74LS245 8-bit bus transceiver**
-* Connect **pin 4 (Q~2)** of the first **74LS173 4-bit D register** to **pin 3 (A~2)** of the **74LS245 8-bit bus transceiver**
-* Connect **pin 3 (Q~1)** of the first **74LS173 4-bit D register** to **pin 2 (A~1)** of the **74LS245 8-bit bus transceiver**
+* Connect **pin 6 (Q~4~)** of the first **74LS173 4-bit D register** to **pin 5 (A~4~)** of the **74LS245 8-bit bus transceiver**
+* Connect **pin 5 (Q~3~)** of the first **74LS173 4-bit D register** to **pin 4 (A~3~)** of the **74LS245 8-bit bus transceiver**
+* Connect **pin 4 (Q~2~)** of the first **74LS173 4-bit D register** to **pin 3 (A~2~)** of the **74LS245 8-bit bus transceiver**
+* Connect **pin 3 (Q~1~)** of the first **74LS173 4-bit D register** to **pin 2 (A~1~)** of the **74LS245 8-bit bus transceiver**
 
 === B Register
 
