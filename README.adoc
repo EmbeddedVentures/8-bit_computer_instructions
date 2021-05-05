@@ -24,20 +24,49 @@ image::https://gist.githubusercontent.com/jessfraz/94117844cbbcad341f36a296ab140
 
 ==== Power wires
 
-* Start with a clean breadboard
-* At the far right side of the breadboard (numbers like 60) connect the two sides of **ground (-)** to each other with a wire.
-* At the far right side of the breadboard (numbers like 60) connect the two sides of **power (+)** to each other with a wire.
+Start with a clean breadboard
+
+===== Connect ground
+
+At the far right side of the breadboard (numbers like 60) connect the two sides of **ground (-)** to each other with a wire.
+
+===== Connect power
+
+At the far right side of the breadboard (numbers like 60) connect the two sides of **power (+)** to each other with a wire.
 
 ==== Place our chips
 
-* Place the **74LS245 8-bit bus transceiver** on the far left side of the board (number like 3) in the middle of the board such that the two sides are in E and F slots.
-* Place the **74LS173 4-bit D register** on the left side of our first chip (number like 15) in the middle of the board such that the two sides are in E and F slots.
-* Place another **74LS173 4-bit D register** on the left side of the first D register chip (number like 25) in the middle of the board such that the two sides are in E and F slots.
+===== 74LS245 8-bit bus transceiver
+
+Place the **74LS245 8-bit bus transceiver** on the far left side of the board (number like **3**) in the middle of the board such that the two sides are in **E** and **F** slots.
+
+===== 74LS173 4-bit D register (1)
+
+Place the first  **74LS173 4-bit D register** on the left side of our first chip (number like **15**) in the middle of the board such that the two sides are in **E** and **F** slots.
+
+===== 74LS173 4-bit D register (2)
+
+Place the second **74LS173 4-bit D register** on the left side of the first D register chip (number like **25**) in the middle of the board such that the two sides are in **E** and **F** slots.
 
 ==== Place our LEDs
 
-* Select 8 red LEDs
-* Place the 8 LEDs on the bottom of the board going from **ground (-)** to **A**, they should be side by side along this row, you can start at the number 15 and go to about 35 with the 8 LEDs
+Select 8 red LEDs.
+
+===== LED (1)
+
+===== LED (2)
+
+===== LED (3)
+
+===== LED (4)
+
+===== LED (5)
+
+===== LED (6)
+
+===== LED (7)
+
+===== LED (8)
 
 ==== Wire the 8-bit bus transceiver
 
