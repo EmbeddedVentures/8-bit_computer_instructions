@@ -10,7 +10,7 @@ v1.0, 2021-05-05
 
 You’re going to be building the storage for bits of data for the computer.
 
-Based on videos here: https://eater.net/8bit/registers and https://eater.net/8bit/alu 
+Based on videos here: https://eater.net/8bit/registers and https://eater.net/8bit/alu
 
 == Registers
 
@@ -18,9 +18,9 @@ For the A and B registers, we will use red LEDs and for the instruction register
 
 === A register
 
-[#img-a-register] 
+[#img-a-register]
 .Schematic: A register
-image::https://gist.githubusercontent.com/jessfraz/94117844cbbcad341f36a296ab140b36/raw/ae8960c1a94995931445746e830307044cd8cfa0/a-register.png[Schematic for the A Register] 
+image::https://gist.githubusercontent.com/jessfraz/94117844cbbcad341f36a296ab140b36/raw/ae8960c1a94995931445746e830307044cd8cfa0/a-register.png[Schematic for the A Register]
 
 ==== Power wires
 
@@ -94,43 +94,43 @@ The eigth LED needs to go from **ground (-)** to **pin 6 (Q~4~)** of the second 
 
 ===== 74LS245 8-bit bus transceiver
 
-- Connect **pin 1 (DIR)** to **power (+)** --> `+ to A`
-- Connect **pin 20 (+5v)** to **power (+)** --> `+ to J`
-- Connect **pin 10 (GND)** to **ground (-)** --> `- to A`
+- Connect **pin 1 (DIR)** to **power (+)** -> `+ to A`
+- Connect **pin 20 (+5v)** to **power (+)** -> `+ to J`
+- Connect **pin 10 (GND)** to **ground (-)** -> `- to A`
 
 ===== 74LS173 4-bit D register (1)
 
-- Connect **pin 1 (M)** to **ground (-)** --> `- to A`
-- Connect **pin 2 (N)** to **pin 1 (M)** --> `B to B`
-- Connect **pin 8 (GND)** to **ground (-)** --> `- to A`
-- Connect **pin 16 (+5v)** to **power (+)** --> `+ to J`
+- Connect **pin 1 (M)** to **ground (-)** -> `- to A`
+- Connect **pin 2 (N)** to **pin 1 (M)** -> `B to B`
+- Connect **pin 8 (GND)** to **ground (-)** -> `- to A`
+- Connect **pin 16 (+5v)** to **power (+)** -> `+ to J`
 
 ===== 74LS173 4-bit D register (2)
 
-- Connect **pin 1 (M)** to **ground (-)** --> `- to A`
-- Connect **pin 2 (N)** to **pin 1 (M)** --> `B to B`
-- Connect **pin 8 (GND)** to **ground (-)** --> `- to A`
-- Connect **pin 16 (+5v)** to **power (+)** --> `+ to J`
+- Connect **pin 1 (M)** to **ground (-)** -> `- to A`
+- Connect **pin 2 (N)** to **pin 1 (M)** -> `B to B`
+- Connect **pin 8 (GND)** to **ground (-)** -> `- to A`
+- Connect **pin 16 (+5v)** to **power (+)** -> `+ to J`
 
 ==== Connect CLR for the two 74LS173 4-bit D registers
 
-Connect **pin 15 (CLR)** of the first **74LS173 4-bit D register** to **pin 15 (CLR)** of the second **74LS173 4-bit D register** --> `J to J`
+Connect **pin 15 (CLR)** of the first **74LS173 4-bit D register** to **pin 15 (CLR)** of the second **74LS173 4-bit D register** -> `J to J`
 
 ==== Connect CLK for the two 74LS173 4-bit D registers
 
-Connect **pin 7 (CLK)** of the first **74LS173 4-bit D register** to **pin 7 (CLK)** of the second **74LS173 4-bit D register** --> `B to B`
+Connect **pin 7 (CLK)** of the first **74LS173 4-bit D register** to **pin 7 (CLK)** of the second **74LS173 4-bit D register** -> `B to B`
 
 ==== Connect G1 and G2 for the two 74LS173 4-bit D registers
 
-Connect **pin 10 (G~1~)** of the first **74LS173 4-bit D register** to **pin 10 (G~1~)** of the second **74LS173 4-bit D register** --> `G to G`
+Connect **pin 10 (G~1~)** of the first **74LS173 4-bit D register** to **pin 10 (G~1~)** of the second **74LS173 4-bit D register** -> `G to G`
 
 ===== 74LS173 4-bit D register (1)
 
-Connect **pin 10 (G~1~)** of the first **74LS173 4-bit D register** to **pin 9 (G~2~)** of the first **74LS173 4-bit D register** --> `H to H`
+Connect **pin 10 (G~1~)** of the first **74LS173 4-bit D register** to **pin 9 (G~2~)** of the first **74LS173 4-bit D register** -> `H to H`
 
 ===== 74LS173 4-bit D register (2)
 
-Connect **pin 10 (G~1~)** of the second **74LS173 4-bit D register** to **pin 9 (G~2~)** of the second **74LS173 4-bit D register** --> `H to H`
+Connect **pin 10 (G~1~)** of the second **74LS173 4-bit D register** to **pin 9 (G~2~)** of the second **74LS173 4-bit D register** -> `H to H`
 
 ==== Connect the two 74LS173 4-bit D registers to the 74LS245 8-bit bus transceiver (A)
 
@@ -199,14 +199,14 @@ Connect a wire to **pin 7 (CLK)** of the second **74LS173 4-bit D register**
 
 === B Register
 
-[#img-b-register] 
+[#img-b-register]
 .Schematic: B register
-image::https://gist.githubusercontent.com/jessfraz/94117844cbbcad341f36a296ab140b36/raw/ae8960c1a94995931445746e830307044cd8cfa0/b-register.png[Schematic for the B Register]  
+image::https://gist.githubusercontent.com/jessfraz/94117844cbbcad341f36a296ab140b36/raw/ae8960c1a94995931445746e830307044cd8cfa0/b-register.png[Schematic for the B Register]
 
 Use the same instructions for the A register and repeat for the B register. This register is the exact same as the A register.
 
 === Instruction register
 
-[#img-instruction-register] 
+[#img-instruction-register]
 .Schematic: Instruction register
-image::https://gist.githubusercontent.com/jessfraz/94117844cbbcad341f36a296ab140b36/raw/ae8960c1a94995931445746e830307044cd8cfa0/ir.png[Schematic for the Instruction Register]  
+image::https://gist.githubusercontent.com/jessfraz/94117844cbbcad341f36a296ab140b36/raw/ae8960c1a94995931445746e830307044cd8cfa0/ir.png[Schematic for the Instruction Register]
