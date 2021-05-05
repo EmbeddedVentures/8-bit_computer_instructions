@@ -94,23 +94,23 @@ The eigth LED needs to go from ground `-` to *pin 6 (Q~4~)* of the second *74LS1
 
 ===== 74LS245 8-bit bus transceiver
 
-1. Connect *pin 1 (DIR)* to power `+` -> `+ to A`
-2. Connect *pin 20 (+5v)* to power `+` -> `+ to J`
-3. Connect *pin 10 (GND)* to ground `-` -> `- to A`
+- Connect *pin 1 (DIR)* to power `+` -> `+ to A`
+- Connect *pin 20 (\+5v)* to power `+` -> `+ to J`
+- Connect *pin 10 (GND)* to ground `-` -> `- to A`
 
 ===== 74LS173 4-bit D register (1)
 
 - Connect *pin 1 (M)* to ground `-` -> `- to A`
 - Connect *pin 2 (N)* to *pin 1 (M)* -> `B to B`
 - Connect *pin 8 (GND)* to ground `-` -> `- to A`
-- Connect *pin 16 (+5v)* to power `+` -> `+ to J`
+- Connect *pin 16 (\+5v)* to power `+` -> `+ to J`
 
 ===== 74LS173 4-bit D register (2)
 
 - Connect *pin 1 (M)* to ground `-` -> `- to A`
 - Connect *pin 2 (N)* to *pin 1 (M)* -> `B to B`
 - Connect *pin 8 (GND)* to ground `-` -> `- to A`
-- Connect *pin 16 (+5v)* to power `+` -> `+ to J`
+- Connect *pin 16 (\+5v)* to power `+` -> `+ to J`
 
 ==== Connect CLR for the two 74LS173 4-bit D registers
 
