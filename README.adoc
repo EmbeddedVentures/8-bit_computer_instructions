@@ -1,6 +1,6 @@
 :showtitle:
 :toc: left
-:toclevels: 3
+:toclevels: 10
 :numbered:
 :icons: font
 
