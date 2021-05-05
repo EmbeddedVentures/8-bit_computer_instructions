@@ -113,7 +113,7 @@ The eigth LED needs to go from *ground `-`* to *pin 6 (Q~4~)* of the second *74L
 * Connect *pin 1 (`M`)* to *ground `-`* -> `- to A`
 ** Connect *pin 2 (`N`)* to *pin 1 (`M`)* -> `B to B`
 * Connect *pin 8 (`GND`)* to *ground `-`* -> `- to A`
-* Connect *pin 16 (\+5v)* to *power `+`* -> `+ to J`
+* Connect *pin 16 (`\+5v`)* to *power `+`* -> `+ to J`
 
 ==== Connect `CLR` for the two 74LS173 4-bit D registers
 
