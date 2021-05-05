@@ -1,3 +1,9 @@
+:showtitle:
+:toc: left
+:toclevels: 3
+:numbered:
+:icons: font
+
 = 8-bit breadboard computer Kit 2: Registers and ALU
 Jessie Frazelle <jessie@embedded.ventures>
 v1.0, 2021-05-05
