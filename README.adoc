@@ -101,14 +101,14 @@ The eigth LED needs to go from **ground (-)** to **pin 6 (Q~4~)** of the second 
 ===== 74LS173 4-bit D register (1)
 
 - Connect **pin 1 (M)** to **ground (-)** --> `- to A`
--- Connect **pin 2 (N)** to **pin 1 (M)** --> `B to B`
+- Connect **pin 2 (N)** to **pin 1 (M)** --> `B to B`
 - Connect **pin 8 (GND)** to **ground (-)** --> `- to A`
 - Connect **pin 16 (+5v)** to **power (+)** --> `+ to J`
 
 ===== 74LS173 4-bit D register (2)
 
 - Connect **pin 1 (M)** to **ground (-)** --> `- to A`
--- Connect **pin 2 (N)** to **pin 1 (M)** --> `B to B`
+- Connect **pin 2 (N)** to **pin 1 (M)** --> `B to B`
 - Connect **pin 8 (GND)** to **ground (-)** --> `- to A`
 - Connect **pin 16 (+5v)** to **power (+)** --> `+ to J`
 
@@ -122,15 +122,15 @@ Connect **pin 7 (CLK)** of the first **74LS173 4-bit D register** to **pin 7 (CL
 
 ==== Connect G1 and G2 for the two 74LS173 4-bit D registers
 
-- Connect **pin 10 (G~1~)** of the first **74LS173 4-bit D register** to **pin 10 (G~1~)** of the second **74LS173 4-bit D register** --> `G to G`
+Connect **pin 10 (G~1~)** of the first **74LS173 4-bit D register** to **pin 10 (G~1~)** of the second **74LS173 4-bit D register** --> `G to G`
 
 ===== 74LS173 4-bit D register (1)
 
-- Connect **pin 10 (G~1~)** of the first **74LS173 4-bit D register** to **pin 9 (G~2~)** of the first **74LS173 4-bit D register** --> `H to H`
+Connect **pin 10 (G~1~)** of the first **74LS173 4-bit D register** to **pin 9 (G~2~)** of the first **74LS173 4-bit D register** --> `H to H`
 
 ===== 74LS173 4-bit D register (2)
 
-- Connect **pin 10 (G~1~)** of the second **74LS173 4-bit D register** to **pin 9 (G~2~)** of the second **74LS173 4-bit D register** --> `H to H`
+Connect **pin 10 (G~1~)** of the second **74LS173 4-bit D register** to **pin 9 (G~2~)** of the second **74LS173 4-bit D register** --> `H to H`
 
 ==== Connect the two 74LS173 4-bit D registers to the 74LS245 8-bit bus transceiver (A)
 
