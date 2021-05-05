@@ -84,9 +84,25 @@ The seventh LED needs to go from **ground (-)** to **pin 5 (Q3)** of the second 
 
 The eigth LED needs to go from **ground (-)** to **pin 6 (Q4)** of the second **74LS173 4-bit D register**
 
-==== Wire the 8-bit bus transceiver
+==== Connect power and ground for the chips
 
-* 
+===== 74LS245 8-bit bus transceiver
+
+* Connect **pin 1 (DIR)** to **power (+)** --> `+ to A`
+* Connect **pin 20 (+5v)** to **power (+)** --> `+ to J`
+* Connect **pin 10 (GND)** to **ground (-)** --> `- to A`
+
+===== 74LS173 4-bit D register (1)
+
+* Connect **pin 1 (M)** to **ground (-)** --> `- to A`
+* Connect **pin 8 (GND)** to **ground (-)** --> `- to A`
+* Connect **pin 16 (+5v)** to **power (+)** --> `+ to J`
+
+===== 74LS173 4-bit D register (2)
+
+* Connect **pin 1 (M)** to **ground (-)** --> `- to A`
+* Connect **pin 8 (GND)** to **ground (-)** --> `- to A`
+* Connect **pin 16 (+5v)** to **power (+)** --> `+ to J`
 
 === B Register
 
