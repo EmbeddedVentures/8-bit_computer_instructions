@@ -26,11 +26,11 @@ image::https://gist.githubusercontent.com/jessfraz/94117844cbbcad341f36a296ab140
 
 Start with a clean breadboard
 
-===== Connect ground
+===== Connect ground `-`
 
 At the far right side of the breadboard (numbers like 60) connect the two sides of ground `-` to each other with a wire.
 
-===== Connect power
+===== Connect power `+`
 
 At the far right side of the breadboard (numbers like 60) connect the two sides of power `+` to each other with a wire.
 
@@ -90,13 +90,13 @@ The seventh LED needs to go from ground `-` to *pin 5 (Q~3~)* of the second *74L
 
 The eigth LED needs to go from ground `-` to *pin 6 (Q~4~)* of the second *74LS173 4-bit D register*
 
-==== Connect power and ground for the chips
+==== Connect power `+` and ground `-` for the chips
 
 ===== 74LS245 8-bit bus transceiver
 
-- Connect *pin 1 (DIR)* to power `+` -> `+ to A`
-- Connect *pin 20 (+5v)* to power `+` -> `+ to J`
-- Connect *pin 10 (GND)* to ground `-` -> `- to A`
+1. Connect *pin 1 (DIR)* to power `+` -> `+ to A`
+2. Connect *pin 20 (+5v)* to power `+` -> `+ to J`
+3. Connect *pin 10 (GND)* to ground `-` -> `- to A`
 
 ===== 74LS173 4-bit D register (1)
 
