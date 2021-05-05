@@ -34,6 +34,15 @@ image::https://gist.githubusercontent.com/jessfraz/94117844cbbcad341f36a296ab140
 * Place the **74LS173 4-bit D register** on the left side of our first chip (number like 15) in the middle of the board such that the two sides are in E and F slots.
 * Place another **74LS173 4-bit D register** on the left side of the first D register chip (number like 25) in the middle of the board such that the two sides are in E and F slots.
 
+==== Place our LEDs
+
+* Select 8 red LEDs
+* Place the 8 LEDs on the bottom of the board going from **ground (-)** to **A**, they should be side by side along this row, you can start at the number 15 and go to about 35 with the 8 LEDs
+
+==== Wire the 8-bit bus transceiver
+
+* 
+
 === B Register
 
 [#img-b-register] 
