@@ -10,17 +10,17 @@ Based on videos here: https://eater.net/8bit/registers and https://eater.net/8bi
 
 [#img-a-register] 
 .Schematic: A register
-image::a-register.png[Schematic for the A Register]  
+image::https://gist.githubusercontent.com/jessfraz/94117844cbbcad341f36a296ab140b36/raw/ae8960c1a94995931445746e830307044cd8cfa0/a-register.png[Schematic for the A Register]  
 
 == B Register
 
 [#img-b-register] 
 .Schematic: B register
-image::b-register.png[Schematic for the B Register]  
+image::https://gist.githubusercontent.com/jessfraz/94117844cbbcad341f36a296ab140b36/raw/ae8960c1a94995931445746e830307044cd8cfa0/b-register.png[Schematic for the B Register]  
 
 
 == Instruction register
 
 [#img-instruction-register] 
 .Schematic: Instruction register
-image::ir.png[Schematic for the Instruction Register]  
+image::https://gist.githubusercontent.com/jessfraz/94117844cbbcad341f36a296ab140b36/raw/ae8960c1a94995931445746e830307044cd8cfa0/ir.png[Schematic for the Instruction Register]  
