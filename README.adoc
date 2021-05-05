@@ -119,8 +119,30 @@ Connect **pin 7 (CLK)** of the first **74LS173 4-bit D register** to **pin 7 (CL
 NOTE: The 4-bit D register stores 4 bits. You write data to it by holding G1 and G2 low and pulsating the clock.
 
 * Connect **pin 10 (G1)** of the first **74LS173 4-bit D register** to **pin 10 (G1)** of the second **74LS173 4-bit D register** --> `G to G`
+
+===== 74LS173 4-bit D register (1)
+
 * Connect **pin 10 (G1)** of the first **74LS173 4-bit D register** to **pin 9 (G2)** of the first **74LS173 4-bit D register** --> `H to H`
+
+===== 74LS173 4-bit D register (2)
+
 * Connect **pin 10 (G1)** of the second **74LS173 4-bit D register** to **pin 9 (G2)** of the second **74LS173 4-bit D register** --> `H to H`
+
+==== Connect the two 74LS173 4-bit D registers to the 74LS245 8-bit bus transceiver
+
+===== 74LS173 4-bit D register (2)
+
+* Connect **pin 6 (Q4)** of the second **74LS173 4-bit D register** to **pin 9 (A8)** of the **74LS245 8-bit bus transceiver**
+* Connect **pin 5 (Q3)** of the second **74LS173 4-bit D register** to **pin 8 (A7)** of the **74LS245 8-bit bus transceiver**
+* Connect **pin 4 (Q2)** of the second **74LS173 4-bit D register** to **pin 7 (A6)** of the **74LS245 8-bit bus transceiver**
+* Connect **pin 3 (Q1)** of the second **74LS173 4-bit D register** to **pin 6 (A5)** of the **74LS245 8-bit bus transceiver**
+
+===== 74LS173 4-bit D register (1)
+
+* Connect **pin 6 (Q4)** of the first **74LS173 4-bit D register** to **pin 5 (A4)** of the **74LS245 8-bit bus transceiver**
+* Connect **pin 5 (Q3)** of the first **74LS173 4-bit D register** to **pin 4 (A3)** of the **74LS245 8-bit bus transceiver**
+* Connect **pin 4 (Q2)** of the first **74LS173 4-bit D register** to **pin 3 (A2)** of the **74LS245 8-bit bus transceiver**
+* Connect **pin 3 (Q1)** of the first **74LS173 4-bit D register** to **pin 2 (A1)** of the **74LS245 8-bit bus transceiver**
 
 === B Register
 
