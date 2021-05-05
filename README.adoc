@@ -114,6 +114,14 @@ Connect **pin 15 (CLR)** of the first **74LS173 4-bit D register** to **pin 15 (
 
 Connect **pin 7 (CLK)** of the first **74LS173 4-bit D register** to **pin 7 (CLK)** of the second **74LS173 4-bit D register** --> `B to B`
 
+==== Connect G1 and G2 for the two 74LS173 4-bit D registers
+
+NOTE: The 4-bit D register stores 4 bits. You write data to it by holding G1 and G2 low and pulsating the clock.
+
+* Connect **pin 10 (G1)** of the first **74LS173 4-bit D register** to **pin 10 (G1)** of the second **74LS173 4-bit D register** --> `G to G`
+* Connect **pin 10 (G1)** of the first **74LS173 4-bit D register** to **pin 9 (G2)** of the first **74LS173 4-bit D register** --> `H to H`
+* Connect **pin 10 (G1)** of the second **74LS173 4-bit D register** to **pin 9 (G2)** of the second **74LS173 4-bit D register** --> `H to H`
+
 === B Register
 
 [#img-b-register] 
