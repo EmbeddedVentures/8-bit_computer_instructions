@@ -54,19 +54,35 @@ Select 8 red LEDs.
 
 ===== LED (1)
 
+The first LED needs to go from **ground (-)** to **pin 3 (Q1)** of the first **74LS173 4-bit D register**
+
 ===== LED (2)
+
+The second LED needs to go from **ground (-)** to **pin 4 (Q2)** of the first **74LS173 4-bit D register**
 
 ===== LED (3)
 
+The third LED needs to go from **ground (-)** to **pin 5 (Q3)** of the first **74LS173 4-bit D register**
+
 ===== LED (4)
+
+The fourth LED needs to go from **ground (-)** to **pin 6 (Q4)** of the first **74LS173 4-bit D register**
 
 ===== LED (5)
 
+The fifth LED needs to go from **ground (-)** to **pin 3 (Q1)** of the second **74LS173 4-bit D register**
+
 ===== LED (6)
+
+The sixth LED needs to go from **ground (-)** to **pin 4 (Q2)** of the second **74LS173 4-bit D register**
 
 ===== LED (7)
 
+The seventh LED needs to go from **ground (-)** to **pin 5 (Q3)** of the second **74LS173 4-bit D register**
+
 ===== LED (8)
+
+The eigth LED needs to go from **ground (-)** to **pin 6 (Q4)** of the second **74LS173 4-bit D register**
 
 ==== Wire the 8-bit bus transceiver
 
