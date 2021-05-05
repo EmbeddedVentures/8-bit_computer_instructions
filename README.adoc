@@ -220,9 +220,13 @@ will help us put all the boards together in the end.
 
 === Testing our registers
 
+==== Create a testing LED breadboard
+
 * On another breadboard line up 8 LEDs
-* ** Connect one side of each LED to ground and one side to the inner board
+* ** Connect one side of each LED to *ground (`-`)* and one side to the inner board
 * Connect each of the wires for the bus on our register to each of the LEDs
+* Connect *ground (`-`)*  on the register breadboard to *ground (`-`)*  on the
+LED breadboard
 
 ==== Set `ENABLE` to high
 
@@ -231,3 +235,37 @@ Plug the other side of the `ENABLE` wire on the register into *power (`+`)*
 ==== Set `LOAD` to high
 
 Plug the other side of the `LOAD` wire on the register into *power (`+`)*
+
+==== Connect to our `CLOCK` breadboard
+
+* Connect the `CLOCK` wire from the register breadboard to the `CLOCK`
+breadboard we made in Kit 1.
+* Connect *power (`+`)* and *ground (`-`)* from the register breadboard to
+*power (`+`)* and *ground (`-`)* on the `CLOCK` breadboard
+
+==== Turn on the register breadboard
+
+Plug our power source into our register breadboard. Now the boards should be
+powered.
+
+==== Bring `LOAD` from high to low
+
+By doing this, we are telling our register to load whatever is on the bus.
+
+The next time the `CLOCK` goes high, all the bits in our register should go
+high. Meaning all the LEDs on the register should illuminate.
+
+NOTE: The chip defaults to high. This is why, even though we have nothing on our
+bus, the bits on the register go to high.
+
+==== Bring `LOAD` from low to high
+
+This turns the load off, so we will no longer load the value from the bus.
+
+==== Bring `ENABLE` from high to low
+
+This enables the register. The output from the register should now populate to the bus (our external
+breadboard with LEDs).
+
+NOTE: If you want to have some bits set to 0, connect some of the LEDs to
+ground. And repeat all these steps again.
