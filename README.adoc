@@ -6,20 +6,23 @@ You’re going to be building the storage for bits of data for the computer.
 
 Based on videos here: https://eater.net/8bit/registers and https://eater.net/8bit/alu 
 
-== A register
+== Registers
+
+For the A and B registers, we will use red LEDs and for the instruction register we will use blue and yellow LEDs. The A and B registers will be built on the left side of the breadboard and the intruction register will be built on the right side of the breadboard. This is so that things line up better for the full computer.
+
+=== A register
 
 [#img-a-register] 
 .Schematic: A register
 image::https://gist.githubusercontent.com/jessfraz/94117844cbbcad341f36a296ab140b36/raw/ae8960c1a94995931445746e830307044cd8cfa0/a-register.png[Schematic for the A Register]  
 
-== B Register
+=== B Register
 
 [#img-b-register] 
 .Schematic: B register
 image::https://gist.githubusercontent.com/jessfraz/94117844cbbcad341f36a296ab140b36/raw/ae8960c1a94995931445746e830307044cd8cfa0/b-register.png[Schematic for the B Register]  
 
-
-== Instruction register
+=== Instruction register
 
 [#img-instruction-register] 
 .Schematic: Instruction register
