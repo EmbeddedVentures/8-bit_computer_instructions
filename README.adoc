@@ -28,11 +28,11 @@ Start with a clean breadboard
 
 ===== Connect ground `-`
 
-At the far right side of the breadboard (numbers like 60) connect the two sides of ground `-` to each other with a wire.
+At the far right side of the breadboard (numbers like 60) connect the two sides of *ground `-`* to each other with a wire.
 
 ===== Connect power `+`
 
-At the far right side of the breadboard (numbers like 60) connect the two sides of power `+` to each other with a wire.
+At the far right side of the breadboard (numbers like 60) connect the two sides of *power `+`* to each other with a wire.
 
 ==== Place our chips
 
@@ -60,57 +60,57 @@ Select 8 red LEDs.
 
 ===== LED (1)
 
-The first LED needs to go from ground `-` to *pin 3 (Q~1~)* of the first *74LS173 4-bit D register*
+The first LED needs to go from *ground `-`* to *pin 3 (Q~1~)* of the first *74LS173 4-bit D register*
 
 ===== LED (2)
 
-The second LED needs to go from ground `-` to *pin 4 (Q~2~)* of the first *74LS173 4-bit D register*
+The second LED needs to go from *ground `-`* to *pin 4 (Q~2~)* of the first *74LS173 4-bit D register*
 
 ===== LED (3)
 
-The third LED needs to go from ground `-` to *pin 5 (Q~3~)* of the first *74LS173 4-bit D register*
+The third LED needs to go from *ground `-`* to *pin 5 (Q~3~)* of the first *74LS173 4-bit D register*
 
 ===== LED (4)
 
-The fourth LED needs to go from ground `-` to *pin 6 (Q~4~)* of the first *74LS173 4-bit D register*
+The fourth LED needs to go from *ground `-`* to *pin 6 (Q~4~)* of the first *74LS173 4-bit D register*
 
 ===== LED (5)
 
-The fifth LED needs to go from ground `-` to *pin 3 (Q~1~)* of the second *74LS173 4-bit D register*
+The fifth LED needs to go from *ground `-`* to *pin 3 (Q~1~)* of the second *74LS173 4-bit D register*
 
 ===== LED (6)
 
-The sixth LED needs to go from ground `-` to *pin 4 (Q~2~)* of the second *74LS173 4-bit D register*
+The sixth LED needs to go from *ground `-`* to *pin 4 (Q~2~)* of the second *74LS173 4-bit D register*
 
 ===== LED (7)
 
-The seventh LED needs to go from ground `-` to *pin 5 (Q~3~)* of the second *74LS173 4-bit D register*
+The seventh LED needs to go from *ground `-`* to *pin 5 (Q~3~)* of the second *74LS173 4-bit D register*
 
 ===== LED (8)
 
-The eigth LED needs to go from ground `-` to *pin 6 (Q~4~)* of the second *74LS173 4-bit D register*
+The eigth LED needs to go from *ground `-`* to *pin 6 (Q~4~)* of the second *74LS173 4-bit D register*
 
 ==== Connect power `+` and ground `-` for the chips
 
 ===== 74LS245 8-bit bus transceiver
 
-- Connect *pin 1 (DIR)* to power `+` -> `+ to A`
-- Connect *pin 20 (\+5v)* to power `+` -> `+ to J`
-- Connect *pin 10 (GND)* to ground `-` -> `- to A`
+- Connect *pin 1 (DIR)* to *power `+`* -> `+ to A`
+- Connect *pin 20 (\+5v)* to *power `+`* -> `+ to J`
+- Connect *pin 10 (GND)* to *ground `-`* -> `- to A`
 
 ===== 74LS173 4-bit D register (1)
 
-- Connect *pin 1 (M)* to ground `-` -> `- to A`
+- Connect *pin 1 (M)* to *ground `-`* -> `- to A`
 - Connect *pin 2 (N)* to *pin 1 (M)* -> `B to B`
-- Connect *pin 8 (GND)* to ground `-` -> `- to A`
-- Connect *pin 16 (\+5v)* to power `+` -> `+ to J`
+- Connect *pin 8 (GND)* to *ground `-`* -> `- to A`
+- Connect *pin 16 (\+5v)* to *power `+`* -> `+ to J`
 
 ===== 74LS173 4-bit D register (2)
 
-- Connect *pin 1 (M)* to ground `-` -> `- to A`
+- Connect *pin 1 (M)* to *ground `-`* -> `- to A`
 - Connect *pin 2 (N)* to *pin 1 (M)* -> `B to B`
-- Connect *pin 8 (GND)* to ground `-` -> `- to A`
-- Connect *pin 16 (\+5v)* to power `+` -> `+ to J`
+- Connect *pin 8 (GND)* to *ground `-`* -> `- to A`
+- Connect *pin 16 (\+5v)* to *power `+`* -> `+ to J`
 
 ==== Connect CLR for the two 74LS173 4-bit D registers
 
@@ -191,7 +191,7 @@ Connect a wire to *pin 19 (EN)* of the *74LS245 8-bit bus transceiver*
 
 Connect a wire to *pin 15 (CLR)* of the second *74LS173 4-bit D register*
 
-For now we can connect the other end of this wire to ground `-` because we don't want to use it right now
+For now we can connect the other end of this wire to *ground `-`* because we don't want to use it right now
 
 ===== Connect wire to the CLOCK signal
 
