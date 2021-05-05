@@ -1,5 +1,6 @@
 :showtitle:
 :toc: left
+:sectnumlevels: 10
 :toclevels: 10
 :numbered:
 :icons: font
