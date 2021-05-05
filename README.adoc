@@ -94,23 +94,23 @@ The eigth LED needs to go from **ground (-)** to **pin 6 (Q~4~)** of the second 
 
 ===== 74LS245 8-bit bus transceiver
 
-* Connect **pin 1 (DIR)** to **power (+)** --> `+ to A`
-* Connect **pin 20 (+5v)** to **power (+)** --> `+ to J`
-* Connect **pin 10 (GND)** to **ground (-)** --> `- to A`
+- Connect **pin 1 (DIR)** to **power (+)** --> `+ to A`
+- Connect **pin 20 (+5v)** to **power (+)** --> `+ to J`
+- Connect **pin 10 (GND)** to **ground (-)** --> `- to A`
 
 ===== 74LS173 4-bit D register (1)
 
-* Connect **pin 1 (M)** to **ground (-)** --> `- to A`
-** Connect **pin 2 (N)** to **pin 1 (M)** --> `B to B`
-* Connect **pin 8 (GND)** to **ground (-)** --> `- to A`
-* Connect **pin 16 (+5v)** to **power (+)** --> `+ to J`
+- Connect **pin 1 (M)** to **ground (-)** --> `- to A`
+-- Connect **pin 2 (N)** to **pin 1 (M)** --> `B to B`
+- Connect **pin 8 (GND)** to **ground (-)** --> `- to A`
+- Connect **pin 16 (+5v)** to **power (+)** --> `+ to J`
 
 ===== 74LS173 4-bit D register (2)
 
-* Connect **pin 1 (M)** to **ground (-)** --> `- to A`
-** Connect **pin 2 (N)** to **pin 1 (M)** --> `B to B`
-* Connect **pin 8 (GND)** to **ground (-)** --> `- to A`
-* Connect **pin 16 (+5v)** to **power (+)** --> `+ to J`
+- Connect **pin 1 (M)** to **ground (-)** --> `- to A`
+-- Connect **pin 2 (N)** to **pin 1 (M)** --> `B to B`
+- Connect **pin 8 (GND)** to **ground (-)** --> `- to A`
+- Connect **pin 16 (+5v)** to **power (+)** --> `+ to J`
 
 ==== Connect CLR for the two 74LS173 4-bit D registers
 
@@ -122,47 +122,47 @@ Connect **pin 7 (CLK)** of the first **74LS173 4-bit D register** to **pin 7 (CL
 
 ==== Connect G1 and G2 for the two 74LS173 4-bit D registers
 
-* Connect **pin 10 (G~1~)** of the first **74LS173 4-bit D register** to **pin 10 (G~1~)** of the second **74LS173 4-bit D register** --> `G to G`
+- Connect **pin 10 (G~1~)** of the first **74LS173 4-bit D register** to **pin 10 (G~1~)** of the second **74LS173 4-bit D register** --> `G to G`
 
 ===== 74LS173 4-bit D register (1)
 
-* Connect **pin 10 (G~1~)** of the first **74LS173 4-bit D register** to **pin 9 (G~2~)** of the first **74LS173 4-bit D register** --> `H to H`
+- Connect **pin 10 (G~1~)** of the first **74LS173 4-bit D register** to **pin 9 (G~2~)** of the first **74LS173 4-bit D register** --> `H to H`
 
 ===== 74LS173 4-bit D register (2)
 
-* Connect **pin 10 (G~1~)** of the second **74LS173 4-bit D register** to **pin 9 (G~2~)** of the second **74LS173 4-bit D register** --> `H to H`
+- Connect **pin 10 (G~1~)** of the second **74LS173 4-bit D register** to **pin 9 (G~2~)** of the second **74LS173 4-bit D register** --> `H to H`
 
 ==== Connect the two 74LS173 4-bit D registers to the 74LS245 8-bit bus transceiver (A)
 
 ===== 74LS173 4-bit D register (2)
 
-* Connect **pin 6 (Q~4~)** of the second **74LS173 4-bit D register** to **pin 9 (A~8~)** of the **74LS245 8-bit bus transceiver**
-* Connect **pin 5 (Q~3~)** of the second **74LS173 4-bit D register** to **pin 8 (A~7~)** of the **74LS245 8-bit bus transceiver**
-* Connect **pin 4 (Q~2~)** of the second **74LS173 4-bit D register** to **pin 7 (A~6~)** of the **74LS245 8-bit bus transceiver**
-* Connect **pin 3 (Q~1~)** of the second **74LS173 4-bit D register** to **pin 6 (A~5~)** of the **74LS245 8-bit bus transceiver**
+- Connect **pin 6 (Q~4~)** of the second **74LS173 4-bit D register** to **pin 9 (A~8~)** of the **74LS245 8-bit bus transceiver**
+- Connect **pin 5 (Q~3~)** of the second **74LS173 4-bit D register** to **pin 8 (A~7~)** of the **74LS245 8-bit bus transceiver**
+- Connect **pin 4 (Q~2~)** of the second **74LS173 4-bit D register** to **pin 7 (A~6~)** of the **74LS245 8-bit bus transceiver**
+- Connect **pin 3 (Q~1~)** of the second **74LS173 4-bit D register** to **pin 6 (A~5~)** of the **74LS245 8-bit bus transceiver**
 
 ===== 74LS173 4-bit D register (1)
 
-* Connect **pin 6 (Q~4~)** of the first **74LS173 4-bit D register** to **pin 5 (A~4~)** of the **74LS245 8-bit bus transceiver**
-* Connect **pin 5 (Q~3~)** of the first **74LS173 4-bit D register** to **pin 4 (A~3~)** of the **74LS245 8-bit bus transceiver**
-* Connect **pin 4 (Q~2~)** of the first **74LS173 4-bit D register** to **pin 3 (A~2~)** of the **74LS245 8-bit bus transceiver**
-* Connect **pin 3 (Q~1~)** of the first **74LS173 4-bit D register** to **pin 2 (A~1~)** of the **74LS245 8-bit bus transceiver**
+- Connect **pin 6 (Q~4~)** of the first **74LS173 4-bit D register** to **pin 5 (A~4~)** of the **74LS245 8-bit bus transceiver**
+- Connect **pin 5 (Q~3~)** of the first **74LS173 4-bit D register** to **pin 4 (A~3~)** of the **74LS245 8-bit bus transceiver**
+- Connect **pin 4 (Q~2~)** of the first **74LS173 4-bit D register** to **pin 3 (A~2~)** of the **74LS245 8-bit bus transceiver**
+- Connect **pin 3 (Q~1~)** of the first **74LS173 4-bit D register** to **pin 2 (A~1~)** of the **74LS245 8-bit bus transceiver**
 
 ==== Connect the two 74LS173 4-bit D registers to the 74LS245 8-bit bus transceiver (B)
 
 ===== 74LS173 4-bit D register (1)
 
-* Connect **pin 14 (D~1~)** of the first **74LS173 4-bit D register** to **pin 18 (B~1~)** of the **74LS245 8-bit bus transceiver**
-* Connect **pin 13 (D~2~)** of the first **74LS173 4-bit D register** to **pin 17 (B~2~)** of the **74LS245 8-bit bus transceiver**
-* Connect **pin 12 (D~3~)** of the first **74LS173 4-bit D register** to **pin 16 (B~3~)** of the **74LS245 8-bit bus transceiver**
-* Connect **pin 11 (D~4~)** of the first **74LS173 4-bit D register** to **pin 15 (B~4~)** of the **74LS245 8-bit bus transceiver**
+- Connect **pin 14 (D~1~)** of the first **74LS173 4-bit D register** to **pin 18 (B~1~)** of the **74LS245 8-bit bus transceiver**
+- Connect **pin 13 (D~2~)** of the first **74LS173 4-bit D register** to **pin 17 (B~2~)** of the **74LS245 8-bit bus transceiver**
+- Connect **pin 12 (D~3~)** of the first **74LS173 4-bit D register** to **pin 16 (B~3~)** of the **74LS245 8-bit bus transceiver**
+- Connect **pin 11 (D~4~)** of the first **74LS173 4-bit D register** to **pin 15 (B~4~)** of the **74LS245 8-bit bus transceiver**
 
 ===== 74LS173 4-bit D register (2)
 
-* Connect **pin 14 (D~1~)** of the second **74LS173 4-bit D register** to **pin 14 (B~5~)** of the **74LS245 8-bit bus transceiver**
-* Connect **pin 13 (D~2~)** of the second **74LS173 4-bit D register** to **pin 13 (B~6~)** of the **74LS245 8-bit bus transceiver**
-* Connect **pin 12 (D~3~)** of the second **74LS173 4-bit D register** to **pin 12 (B~7~)** of the **74LS245 8-bit bus transceiver**
-* Connect **pin 11 (D~4~)** of the second **74LS173 4-bit D register** to **pin 11 (B~8~)** of the **74LS245 8-bit bus transceiver**
+- Connect **pin 14 (D~1~)** of the second **74LS173 4-bit D register** to **pin 14 (B~5~)** of the **74LS245 8-bit bus transceiver**
+- Connect **pin 13 (D~2~)** of the second **74LS173 4-bit D register** to **pin 13 (B~6~)** of the **74LS245 8-bit bus transceiver**
+- Connect **pin 12 (D~3~)** of the second **74LS173 4-bit D register** to **pin 12 (B~7~)** of the **74LS245 8-bit bus transceiver**
+- Connect **pin 11 (D~4~)** of the second **74LS173 4-bit D register** to **pin 11 (B~8~)** of the **74LS245 8-bit bus transceiver**
 
 ==== Connect wires that will be external to board
 
@@ -170,14 +170,14 @@ These wires will be more like jumpers that we will connect to other boards.
 
 ===== Connect wires to the bus
 
-* Connect a wire to **pin 18 (B~1~)** of the **74LS245 8-bit bus transceiver**
-* Connect a wire to **pin 17 (B~2~)** of the **74LS245 8-bit bus transceiver**
-* Connect a wire to **pin 16 (B~3~)** of the **74LS245 8-bit bus transceiver**
-* Connect a wire to **pin 15 (B~4~)** of the **74LS245 8-bit bus transceiver**
-* Connect a wire to **pin 14 (B~5~)** of the **74LS245 8-bit bus transceiver**
-* Connect a wire to **pin 13 (B~6~)** of the **74LS245 8-bit bus transceiver**
-* Connect a wire to **pin 12 (B~7~)** of the **74LS245 8-bit bus transceiver**
-* Connect a wire to **pin 11 (B~8~)** of the **74LS245 8-bit bus transceiver**
+- Connect a wire to **pin 18 (B~1~)** of the **74LS245 8-bit bus transceiver**
+- Connect a wire to **pin 17 (B~2~)** of the **74LS245 8-bit bus transceiver**
+- Connect a wire to **pin 16 (B~3~)** of the **74LS245 8-bit bus transceiver**
+- Connect a wire to **pin 15 (B~4~)** of the **74LS245 8-bit bus transceiver**
+- Connect a wire to **pin 14 (B~5~)** of the **74LS245 8-bit bus transceiver**
+- Connect a wire to **pin 13 (B~6~)** of the **74LS245 8-bit bus transceiver**
+- Connect a wire to **pin 12 (B~7~)** of the **74LS245 8-bit bus transceiver**
+- Connect a wire to **pin 11 (B~8~)** of the **74LS245 8-bit bus transceiver**
 
 ===== Connect wire to the LOAD signal
 
