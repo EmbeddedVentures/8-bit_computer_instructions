@@ -20,7 +20,7 @@ For the A and B registers, we will use red LEDs and for the instruction register
 
 [#img-a-register]
 .Schematic: A register
-image::https://gist.githubusercontent.com/jessfraz/94117844cbbcad341f36a296ab140b36/raw/ae8960c1a94995931445746e830307044cd8cfa0/a-register.png[Schematic for the A Register]
+image::https://gist.githubusercontent.com/jessfraz/94117844cbbcad341f36a296ab140b36/raw/fe73b09c5a9ebacde56415d293506cf61f6a0b21/a-register.png[Schematic for the A Register]
 
 ==== Power wires
 
@@ -201,7 +201,7 @@ Connect a wire to *pin 7 (CLK)* of the second *74LS173 4-bit D register*
 
 [#img-b-register]
 .Schematic: B register
-image::https://gist.githubusercontent.com/jessfraz/94117844cbbcad341f36a296ab140b36/raw/ae8960c1a94995931445746e830307044cd8cfa0/b-register.png[Schematic for the B Register]
+image::https://gist.githubusercontent.com/jessfraz/94117844cbbcad341f36a296ab140b36/raw/fe73b09c5a9ebacde56415d293506cf61f6a0b21/b-register.png[Schematic for the B Register]
 
 Use the same instructions for the A register and repeat for the B register. This register is the exact same as the A register.
 
@@ -209,7 +209,7 @@ Use the same instructions for the A register and repeat for the B register. This
 
 [#img-instruction-register]
 .Schematic: Instruction register
-image::https://gist.githubusercontent.com/jessfraz/94117844cbbcad341f36a296ab140b36/raw/ae8960c1a94995931445746e830307044cd8cfa0/ir.png[Schematic for the Instruction Register]
+image::https://gist.githubusercontent.com/jessfraz/94117844cbbcad341f36a296ab140b36/raw/fe73b09c5a9ebacde56415d293506cf61f6a0b21/ir.png[Schematic for the Instruction Register]
 
 Use the same instructions for the A register but mirror them on the breadboard
 such that it is aligned on the right side of the board versus the left. This
