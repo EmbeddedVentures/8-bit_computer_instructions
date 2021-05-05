@@ -210,3 +210,7 @@ Use the same instructions for the A register and repeat for the B register. This
 [#img-instruction-register]
 .Schematic: Instruction register
 image::https://gist.githubusercontent.com/jessfraz/94117844cbbcad341f36a296ab140b36/raw/ae8960c1a94995931445746e830307044cd8cfa0/ir.png[Schematic for the Instruction Register]
+
+Use the same instructions for the A register but mirror them on the breadboard
+such that it is aligned on the right side of the board versus the left. This
+will help us put all the boards together in the end.
