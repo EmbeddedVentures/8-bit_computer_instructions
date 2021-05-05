@@ -38,7 +38,15 @@ At the far right side of the breadboard (numbers like 60) connect the two sides 
 
 ===== 74LS245 8-bit bus transceiver
 
-NOTE: The 8-bit bus transceiver allows 8-bit data from *A (pins 2-9)* to *B (pins 11-18)* or B to A depending on the input to *pin 1 (DIR)*. The input for *pin 19 (EN aka. ENABLE)* disables the device so A and B are isolated.
+.About this chip
+****
+
+The 8-bit bus transceiver allows 8-bit data from *A (pins 2-9)* to *B (pins
+11-18)* or B to A depending on the input to *pin 1 (DIR)*. The input for *pin 19
+(EN)* disables the device so A and B are isolated.
+
+TIP: `DIR` stands for `DIRECTION` and `EN` stands for `ENABLE`.
+***
 
 Place the *74LS245 8-bit bus transceiver* on the far left side of the board (number like *3*) in the middle of the board such that the two sides are in *E* and *F* slots.
 
@@ -214,3 +222,7 @@ image::https://gist.githubusercontent.com/jessfraz/94117844cbbcad341f36a296ab140
 Use the same instructions for the A register but mirror them on the breadboard
 such that it is aligned on the right side of the board versus the left. This
 will help us put all the boards together in the end.
+
+=== Testing our register
+
+To test the registers, we can connect them up to some LEDs.
