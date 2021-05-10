@@ -25,7 +25,7 @@ image::https://raw.githubusercontent.com/EmbeddedVentures/8-bit_computer_instruc
 https://www.youtube.com/watch?v=kRlSFm519Bo&ab_channel=BenEater 
 [#img-clock-1]
 .Schematic: Clock One
-image::https://raw.githubusercontent.com/EmbeddedVentures/8-bit_computer_instructions/master/Kit%201/images/clock==png[Clock One]
+image::https://raw.githubusercontent.com/EmbeddedVentures/8-bit_computer_instructions/master/Kit%201/images/clock1.png[Clock One]
 ===	Breadboard
 ====	Start with a breadboard. We will referrer to the horizontal connections as “rows” and the vertical connections as “columns”.
  
