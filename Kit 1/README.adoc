@@ -5,7 +5,7 @@
 :numbered:
 :icons: font
 
-= 8-bit breadboard computer Kit 2: Registers and ALU
+= 8-bit breadboard computer Kit 1: Clock
 Jordan Noone <jordan@embedded.ventures>
 v1.0, 2021-05-09
 
