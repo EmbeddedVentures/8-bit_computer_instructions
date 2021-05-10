@@ -9,6 +9,14 @@
 Jordan Noone <jordan@embedded.ventures>
 v1.0, 2021-05-09
 
-You’re going to be building the storage for bits of data for the computer.
+You’re going to be building the clock that controls the timing within your computer. You’re actually going to build three clocks, each with a 555 timer at its core, but each will be wired in a unique way. You’re going to add logic blocks in a way that allows you to switch between which clock is controlling your computer.
 
 Based on videos here: https://eater.net/8bit/clock
+
+== Clock Module
+
+=== The Clocks
+
+[#img-the-clocks]
+.Schematic: The clocks
+#image::
