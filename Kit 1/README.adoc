@@ -38,16 +38,16 @@ image::https://raw.githubusercontent.com/EmbeddedVentures/8-bit_computer_instruc
 
 [#img-555]
 .Schematic: 555 Timer
-image::https://raw.githubusercontent.com/EmbeddedVentures/8-bit_computer_instructions/master/Kit%201/images/5==png[555 Timer]
+image::https://raw.githubusercontent.com/EmbeddedVentures/8-bit_computer_instructions/master/Kit%201/images/555.png[555 Timer]
 
-====	Place the 555 timer on the left side of the board, bridging the gap in the middle, and with the top on the left.
+==== Place the 555 timer on the left side of the board, bridging the gap in the middle, and with the top on the left.
 ====	Using a jumper, connect pin 8 to power.
 ====	Using a jumper, connect pin 1 to ground.
-====	Using a 1,000 ohm resistor, connect pin 8 to pin ==
+====	Using a 1,000 ohm resistor, connect pin 8 to pin 7.
 ====	Using a jumper, connect pin 4 to power
-====	Using a jumper, connect pin 6 to pin ==
-====	Using a ==01 microfarad capacitor, connect pin 5 to ground.
-====	Using a ==0 microfarad capacitor, connect pin 2 (long leg) to ground (short leg).
+====	Using a jumper, connect pin 6 to pin 2.
+====	Using a 0.01 microfarad capacitor, connect pin 5 to ground.
+====	Using a 1.0 microfarad capacitor, connect pin 2 (long leg) to ground (short leg).
 ====	Place a potentiometer nearby on the board.
 ====	Using a 1,000 ohm resistor, connect 555 pin 7 to potentiometer pin 2
 ====	Using a jumper, connect the 555 pin 6 to the potentiometer pin 1
@@ -64,7 +64,7 @@ image::https://raw.githubusercontent.com/EmbeddedVentures/8-bit_computer_instruc
 [#img-power-stabilizers]
 .Schematic: Power Stabilizers
 image::https://raw.githubusercontent.com/EmbeddedVentures/8-bit_computer_instructions/master/Kit%201/images/stabilizers.png[Power Stabilizers] 
-====	Get two ==1 micro-Farad capacitors and connect them both from power to ground.
+====	Get two 0.1 micro-Farad capacitors and connect them both from power to ground.
 ===	Power
 ====	Connect the power row on the top of the board to the power row on the bottom of the board using a jumper.
 ====	Connect the ground row on the bottom of the board to the ground row on the bottom of the board using a jumper.
@@ -85,24 +85,24 @@ image::https://raw.githubusercontent.com/EmbeddedVentures/8-bit_computer_instruc
 https://www.youtube.com/watch?v=81BgFhm2vz8&ab_channel=BenEater 
 [#img-clock-2]
 .Schematic: Clock Two
-image::https://raw.githubusercontent.com/EmbeddedVentures/8-bit_computer_instructions/master/Kit%201/images/clock==png[Clock Two]
+image::https://raw.githubusercontent.com/EmbeddedVentures/8-bit_computer_instructions/master/Kit%201/images/clock2.png[Clock Two]
 ===	Timer Circuit
 ====	Get a 555 timer and note which side has the small circular indent. This side is the “top”.
 [#img-555]
 .Schematic: 555 Timer
-image::https://raw.githubusercontent.com/EmbeddedVentures/8-bit_computer_instructions/master/Kit%201/images/5==png[555 Timer]
+image::https://raw.githubusercontent.com/EmbeddedVentures/8-bit_computer_instructions/master/Kit%201/images/555.png[555 Timer]
 ====	Place the 555 timer on the right of the other timer on the board, bridging the gap in the middle, and with the top on the left.
 ====	Using a jumper, connect pin 8 to power.
 ====	Using a jumper, connect pin 1 to ground.
-====	Using a 1,000,000 ohm resistor, connect pin 8 to pin ==
+====	Using a 1,000,000 ohm resistor, connect pin 8 to pin 7.
 ====	Using a jumper, connect pin 4 to power.
-====	Using a ==01 microfarad capacitor, connect pin 5 to ground.
+====	Using a 0.01 microfarad capacitor, connect pin 5 to ground.
 ====	Using a 1,000 ohm resistor, connect pin 2 to power.
 ====	Place the push button switch to the right of the 555 timer.
 ====	Use a jumper to connect pin 2 of the 555 to the bottom left side of the switch.
 ====	Use a jumper to connect the bottom right side of the switch to ground.
-====	Use a jumper to connect pin 6 to  pin ==
-====	Using a ==1 microfarad capacitor, connect pin 6 to ground.
+====	Use a jumper to connect pin 6 to  pin 7.
+====	Using a 01 microfarad capacitor, connect pin 6 to ground.
 ===	Indicator LED
 ====	Connect pin 3 of this 555 timer to the long leg of the LED.
 ===	Power
@@ -119,22 +119,22 @@ image::https://raw.githubusercontent.com/EmbeddedVentures/8-bit_computer_instruc
 https://www.youtube.com/watch?v=WCwJNnx36Rk&ab_channel=BenEater 
 [#img-clock-3]
 .Schematic: Clock Three
-image::https://raw.githubusercontent.com/EmbeddedVentures/8-bit_computer_instructions/master/Kit%201/images/clock==png[Clock Three] 
+image::https://raw.githubusercontent.com/EmbeddedVentures/8-bit_computer_instructions/master/Kit%201/images/clock3.png[Clock Three] 
 ===	Clock Timer
 ====	Place the 555 timer on the right of the other timers on the board, bridging the gap in the middle, and with the top on the left.
 [#img-555]
 .Schematic: 555 Timer
-image::https://raw.githubusercontent.com/EmbeddedVentures/8-bit_computer_instructions/master/Kit%201/images/5==png[555 Timer]
+image::https://raw.githubusercontent.com/EmbeddedVentures/8-bit_computer_instructions/master/Kit%201/images/555.png[555 Timer]
 ====	Using a jumper, connect pin 8 to power.
 ====	Using a jumper, connect pin 1 to ground.
 ====	Using a 1,000 ohm resistor, connect pin 4 to power.
 ====	Using a 1,000 ohm resistor, connect pin 2 to power.
-====	Using a ==01 microfarad capacitor, connect pin 5 to ground.
+====	Using a 0.01 microfarad capacitor, connect pin 5 to ground.
 ====	Use a jumper to connect pin 6 to ground.
 ====	Place the toggle switch nearby on the bottom half of the board.
 ====	Connect the middle pin of the switch to ground.
-====	Connect the left output of the switch with a jumper to pin ==
-====	Connect the right output of the switch with a jumper to pin ==
+====	Connect the left output of the switch with a jumper to pin 2.
+====	Connect the right output of the switch with a jumper to pin 4.
 ===	Indicator LED
 ====	Connect pin 3 of this 555 timer to the long leg of the LED.
 ===	Power
