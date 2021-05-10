@@ -7,7 +7,7 @@
 
 = 8-bit breadboard computer Kit 1: Clock
 Jordan Noone <jordan@embedded.ventures>
-v1.0, 2021-05-09
+v==0, 2021-05-09
 
 You’re going to be building the clock that controls the timing within your computer. You’re actually going to build three clocks, each with a 555 timer at its core, but each will be wired in a unique way. You’re going to add logic blocks in a way that allows you to switch between which clock is controlling your computer.
 
@@ -19,4 +19,144 @@ Based on videos here: https://eater.net/8bit/clock
 
 [#img-the-clocks]
 .Schematic: The clocks
-#image::
+image::https://raw.githubusercontent.com/EmbeddedVentures/8-bit_computer_instructions/master/Kit%201/images/clocks.png[Clock Schematics]
+
+===	Clock One: Astable 555 timer
+https://www.youtube.com/watch?v=kRlSFm519Bo&ab_channel=BenEater 
+[#img-clock-1]
+.Schematic: Clock One
+image::https://raw.githubusercontent.com/EmbeddedVentures/8-bit_computer_instructions/master/Kit%201/images/clock==png[Clock One]
+===	Breadboard
+====	Start with a breadboard. We will referrer to the horizontal connections as “rows” and the vertical connections as “columns”.
+ 
+[#img-a-breadboard]
+.Schematic: A Breadboard
+image::https://raw.githubusercontent.com/EmbeddedVentures/8-bit_computer_instructions/master/Kit%201/images/breadboard.png[A Breadboard]
+
+===	Timer Circuit
+====	Get a 555 timer and note which side has the small circular indent. This side is the “top”. The 555 timer is labeled “LM555CN”.
+
+[#img-555]
+.Schematic: 555 Timer
+image::https://raw.githubusercontent.com/EmbeddedVentures/8-bit_computer_instructions/master/Kit%201/images/5==png[555 Timer]
+
+====	Place the 555 timer on the left side of the board, bridging the gap in the middle, and with the top on the left.
+====	Using a jumper, connect pin 8 to power.
+====	Using a jumper, connect pin 1 to ground.
+====	Using a 1,000 ohm resistor, connect pin 8 to pin ==
+====	Using a jumper, connect pin 4 to power
+====	Using a jumper, connect pin 6 to pin ==
+====	Using a ==01 microfarad capacitor, connect pin 5 to ground.
+====	Using a ==0 microfarad capacitor, connect pin 2 (long leg) to ground (short leg).
+====	Place a potentiometer nearby on the board.
+====	Using a 1,000 ohm resistor, connect 555 pin 7 to potentiometer pin 2
+====	Using a jumper, connect the 555 pin 6 to the potentiometer pin 1
+===	Indicator LED
+[#img-indicator-led]
+.Schematic: Indicator LED
+image::https://raw.githubusercontent.com/EmbeddedVentures/8-bit_computer_instructions/master/Kit%201/images/LED.png[Indicator LED]
+====	In the bottom right corner of the board:
+=====	Place the long leg of a blue LED into its own column.
+=====	Place the short leg into a nearby column.
+=====	Connect a 220 ohm resistor between the short leg’s column and ground.
+=====	Connect pin 3 of this 555 timer to the long leg of the LED.
+===	Power Stabilizers
+[#img-power-stabilizers]
+.Schematic: Power Stabilizers
+image::https://raw.githubusercontent.com/EmbeddedVentures/8-bit_computer_instructions/master/Kit%201/images/stabilizers.png[Power Stabilizers] 
+====	Get two ==1 micro-Farad capacitors and connect them both from power to ground.
+===	Power
+====	Connect the power row on the top of the board to the power row on the bottom of the board using a jumper.
+====	Connect the ground row on the bottom of the board to the ground row on the bottom of the board using a jumper.
+====	Connect two jumpers to the power adapter using a small phillips screwdriver. Tighten very lightly.
+====	Connect the two jumpers to the the board (positive to positive, negative to negative)
+====	Connect the power adapter to the power cord 
+====	Plug the power cord into a standard outlet
+===	Test the first clock
+====	The clock should be running as soon as power is connected. The LED should be blinking.
+====	Adjusting the potentiometer will adjust the clock speed. Gently adjust it and the LED should blink slower or faster.
+===	Disconnect power
+====	Before building the rest of the board, unplug the power cable from the outlet.
+===	Remove the clock output line
+====	One line that you added in was temporary just to test this part. Remove the line between the pin 3 of this 555 timer and the LED. 
+
+ 
+==	Clock Two: Monostable 555 timer
+https://www.youtube.com/watch?v=81BgFhm2vz8&ab_channel=BenEater 
+[#img-clock-2]
+.Schematic: Clock Two
+image::https://raw.githubusercontent.com/EmbeddedVentures/8-bit_computer_instructions/master/Kit%201/images/clock==png[Clock Two]
+===	Timer Circuit
+====	Get a 555 timer and note which side has the small circular indent. This side is the “top”.
+[#img-555]
+.Schematic: 555 Timer
+image::https://raw.githubusercontent.com/EmbeddedVentures/8-bit_computer_instructions/master/Kit%201/images/5==png[555 Timer]
+====	Place the 555 timer on the right of the other timer on the board, bridging the gap in the middle, and with the top on the left.
+====	Using a jumper, connect pin 8 to power.
+====	Using a jumper, connect pin 1 to ground.
+====	Using a 1,000,000 ohm resistor, connect pin 8 to pin ==
+====	Using a jumper, connect pin 4 to power.
+====	Using a ==01 microfarad capacitor, connect pin 5 to ground.
+====	Using a 1,000 ohm resistor, connect pin 2 to power.
+====	Place the push button switch to the right of the 555 timer.
+====	Use a jumper to connect pin 2 of the 555 to the bottom left side of the switch.
+====	Use a jumper to connect the bottom right side of the switch to ground.
+====	Use a jumper to connect pin 6 to  pin ==
+====	Using a ==1 microfarad capacitor, connect pin 6 to ground.
+===	Indicator LED
+====	Connect pin 3 of this 555 timer to the long leg of the LED.
+===	Power
+====	Plug the power cord into a standard outlet
+===	Test the second clock
+====	When power is plugged in, the LED should be off.
+====	When you push the switch, the LED should momentarily turn on.
+====	Regardless of the duration you hold down the switch, the duration the LED stays on should be the same.
+===	Disconnect power
+====	Before building the rest of the board, unplug the power cable from the outlet.
+===	Remove the clock output line
+====	One line that you added in was temporary just to test this part. Remove the line between the pin three of this 555 timer and the LED.  
+==	Clock Three: Bistable 555 timer
+https://www.youtube.com/watch?v=WCwJNnx36Rk&ab_channel=BenEater 
+[#img-clock-3]
+.Schematic: Clock Three
+image::https://raw.githubusercontent.com/EmbeddedVentures/8-bit_computer_instructions/master/Kit%201/images/clock==png[Clock Three] 
+===	Clock Timer
+====	Place the 555 timer on the right of the other timers on the board, bridging the gap in the middle, and with the top on the left.
+[#img-555]
+.Schematic: 555 Timer
+image::https://raw.githubusercontent.com/EmbeddedVentures/8-bit_computer_instructions/master/Kit%201/images/5==png[555 Timer]
+====	Using a jumper, connect pin 8 to power.
+====	Using a jumper, connect pin 1 to ground.
+====	Using a 1,000 ohm resistor, connect pin 4 to power.
+====	Using a 1,000 ohm resistor, connect pin 2 to power.
+====	Using a ==01 microfarad capacitor, connect pin 5 to ground.
+====	Use a jumper to connect pin 6 to ground.
+====	Place the toggle switch nearby on the bottom half of the board.
+====	Connect the middle pin of the switch to ground.
+====	Connect the left output of the switch with a jumper to pin ==
+====	Connect the right output of the switch with a jumper to pin ==
+===	Indicator LED
+====	Connect pin 3 of this 555 timer to the long leg of the LED.
+===	Power
+====	Plug the power cord into a standard outlet
+===	Test the third clock
+====	When power is plugged in, the LED should be off.
+====	When you change the switch position, the LED should turn on and stay on.
+====	When you change the switch position back, the LED should turn off and stay off.
+====	Try cycling the switch a couple times and making sure its behavior is repeatable. 
+===	Disconnect power
+====	Before building the rest of the board, unplug the power cable from the outlet.
+===	Remove the clock output line
+====	One line that you added in was temporary just to test this part. Remove the line between the pin three of this 555 timer and the LED. 
+
+Appendix
+
+Circuit Diagram
+[#img-circuit-diagram]
+.Schematic: Circuit Diagram
+image::https://raw.githubusercontent.com/EmbeddedVentures/8-bit_computer_instructions/master/Kit%201/images/circuit_diagram.png[Circuit Diagram]
+
+Resistor Color Code Chart
+[#img-resistors]
+.Schematic: Resistor Color Code Chart
+image::https://raw.githubusercontent.com/EmbeddedVentures/8-bit_computer_instructions/master/Kit%201/images/resistor_codes.png[Resistor Color Code Chart]
