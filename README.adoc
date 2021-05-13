@@ -14,5 +14,5 @@ You’re going to be building an 8-bit computer.
 Based on videos here: https://eater.net/8bit
 
 == Kit Instructions:
-Kit 1: https://github.com/EmbeddedVentures/8-bit_computer_instructions/blob/bc6d0b05e1fc4fd1564cf4b05d4f18a376c06e23/Kit%201/README.adoc +
-Kit 2: https://github.com/EmbeddedVentures/8-bit_computer_instructions/blob/bc6d0b05e1fc4fd1564cf4b05d4f18a376c06e23/Kit%202/README.adoc
+Kit 1: https://github.com/EmbeddedVentures/8-bit_computer_instructions/tree/master/Kit%201/README.adoc +
+Kit 2: https://github.com/EmbeddedVentures/8-bit_computer_instructions/tree/master/Kit%202/README.adoc
