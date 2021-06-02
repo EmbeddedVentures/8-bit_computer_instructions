@@ -15,7 +15,7 @@ Based on videos here: https://eater.net/8bit/registers and https://eater.net/8bi
 
 == Registers
 
-For the A and B registers, we will use red LEDs and for the instruction register we will use blue and yellow LEDs. The A and B registers will be built on the left side of the breadboard and the intruction register will be built on the right side of the breadboard. This is so that things line up better for the full computer.
+For the A and B registers, we will use red LEDs and for the instruction register we will use blue and yellow LEDs. The A and B registers will be built on the left side of the breadboard and the instruction register will be built on the right side of the breadboard. This is so that things line up better for the full computer.
 
 === A register
 
@@ -91,7 +91,7 @@ The seventh LED needs to go from *ground `-`* to *pin 5 (Q~3~)* of the second *7
 
 ===== LED (8)
 
-The eigth LED needs to go from *ground `-`* to *pin 6 (Q~4~)* of the second *74LS173 4-bit D register*
+The eighth LED needs to go from *ground `-`* to *pin 6 (Q~4~)* of the second *74LS173 4-bit D register*
 
 ==== Connect power `+` and ground `-` for the chips
 
